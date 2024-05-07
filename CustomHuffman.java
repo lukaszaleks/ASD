@@ -89,8 +89,8 @@ class MinHeap {
 public class CustomHuffman {
 
     public static void main(String[] args) {
-        String inputFilePath = "C:\\Users\\l.aleksandrowicz\\Downloads\\ASD\\src\\main\\java\\input.txt";
-        String outputFilePath = "C:\\Users\\l.aleksandrowicz\\Downloads\\ASD\\src\\main\\java\\output.bin";
+        String inputFilePath = " ";
+        String outputFilePath = " ";
         Map<Character, String> huffmanCodes = encrypt(inputFilePath, outputFilePath);
         System.out.println("Huffman:");
         for (Map.Entry<Character, String> entry : huffmanCodes.entrySet()) {
